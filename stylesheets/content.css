@@ -1,18 +1,22 @@
 h1 {
-  margin-top: 36px;
+  margin-top: 42px;
   font-family: 'Old Standard TT';
   font-size: 76px;
-  line-height: 76px;
+  line-height: 75px;
 }
 h2 {
-  margin-top: 26px;
+  margin-top: 30px;
   font-family: 'Old Standard TT';
   font-size: 48px;
   line-height: 48px;
 }
+.news1-h3 {
+  text-transform: none;
+  text-align: justify;
+}
 h3 {
-  margin-top: 16px;
-  margin-bottom: 12px;
+  margin-top: 15px;
+  margin-bottom: 11px;
   font-family: 'Old Standard TT';
   font-weight: bold;
   text-transform: uppercase;
@@ -26,64 +30,640 @@ p {
   line-height: 33px;
   text-align: justify;
 }
+.news1-line03 {
+  width: 424px;
+  margin-top: 34px;
+}
+.news2-line03 {
+  width: 424px;
+  margin-top: 34px;
+  margin-left: 0px;
+}
 hr {
   height: 3px;
   background-color: black;
+  width: 1356px;
   border: none;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: all .15s ease;
+}
+a:hover {
+  text-decoration: none;
+  color: #9E9E9E;
+  transition: all .1s ease;
 }
 img {
-  position: absolute;
+  pointer-events: none;
 }
 
 /* БИЛДИНГ */
-.one {
-  margin-top: 40.5px;
-  margin-left: 40.5px;
+.building {
+  position: relative;
+  top: 40.5px;
+  left: 40.5px;
 }
-.one-text01 {
+.building img {
+  position: relative;
+}
+.txt01 {
+  position: absolute;
+  font-family: 'Old Standard TT';
   font-weight: bold;
   font-size: 68px;
   letter-spacing: .18em;
-  margin-left: 79px;
-  margin-top: 256px;
+  left: 79px;
+  top: 238px;
 }
-.one-text02 {
+.txt02 {
+  position: absolute;
+  font-family: 'Old Standard TT';
   font-weight: bold;
   font-size: 68px;
   letter-spacing: .18em;
-  margin-left: 203px;
-  margin-top: 340px;
+  left: 203px;
+  top: 322px;
 }
-.one-text03 {
+.txt03 {
+  position: absolute;
+  font-family: 'Old Standard TT';
   font-weight: bold;
   font-size: 47px;
   letter-spacing: .18em;
   text-decoration-line: underline;
-  margin-left: 267px;
-  margin-top: 330px;
+  left: 267px;
+  top: 322px;
 }
-.one-text04 {
+.txt04 {
+  position: absolute;
+  font-family: 'Old Standard TT';
   font-weight: bold;
   font-size: 68px;
   letter-spacing: .18em;
-  margin-left: 400px;
-  margin-top: 340px;
+  left: 400px;
+  top: 322px;
 }
-.one-old {
+.txt05 {
+  position: absolute;
+  font-family: 'Old Standard TT';
   font-weight: normal;
   font-size: 178px;
-  margin-left: 17px;
-  margin-top: 663px;
+  left: 17px;
+  top: 590px;
 }
 
 /* ГАЗЕТА 1 */
 .two {
-  margin-top: 40.5px;
-  margin-left: 40.5px;
+  margin-top: 130px;
+  left: 42px;
 }
 .two-header {
+  font-family: 'Old Standard TT';
   font-size: 117px;
   font-weight: bold;
-  margin-left: -5px;
-  margin-top: 1485px;
+  text-align: center;
+}
+.news1-line01 {
+  margin-top: 5px;
+}
+.news1-line02 {
+  margin-top: 0px;
+}
+.newscaptionparent {
+  margin: 0 auto;
+  width: 1356px;
+  display: flex;
+  justify-content: space-between;
+}
+.news1-h1 {
+  font-weight: bold;
+  text-align: left;
+  width: 888px;
+}
+.newsbodyparent {
+  width: 1356px;
+  display: flex;
+  margin: 0 auto;
+}
+.news1-p01 {
+  width: 424px;
+  text-align-last: justify;
+  padding-right: 42px;
+}
+.news1-p02 {
+  width: 424px;
+  text-align: justify;
+  padding-right: 42px;
+}
+.newsbodyp {
+  display: flex;
+}
+.news1-p03 {
+  font-style: italic;
+  margin-top: 27px;
+}
+.news1-h2 {
+  font-weight: bold;
+}
+
+/* ШТУКИ 1 */
+.three {
+  margin-top: 78px;
+  position: relative;
+}
+#rectangle {
+  margin: 0 auto;
+  width: 1350px;
+  height: 174px;
+  border-radius: 100px;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 180px;
+  font-family: 'Old Standard TT';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 182px;
+  line-height: 28px;
+}
+#ellipse1 {
+  left: 110px;
+  top: 146px;
+  position: absolute;
+  margin: 0 auto;
+  width: 62px;
+  height: 62px;
+  border-radius: 62px;
+  border: 3px solid black;
+}
+#ellipse2 {
+  left: 1261px;
+  top: 146px;
+  position: absolute;
+  margin: 0 auto;
+  width: 62px;
+  height: 62px;
+  border-radius: 62px;
+  border: 3px solid black;
+}
+.itemsflex {
+  margin: 0 auto;
+  display: flex;
+}
+#vaselin {
+  padding-left: 40px;
+  padding-top: 57px;
+}
+#rectanglevoda1 {
+  margin-left: 42px;
+  margin-top: 62px;
+  width: 518px;
+  height: 177px;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 18px;
+  padding-left: 15px;
+}
+#txtvoda {
+  margin-left: 6px;
+  margin-top: 22px;
+  font-family: 'Old Standard TT';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 23px;
+  line-height: 23px;
+  letter-spacing: 0.9em;
+}
+#rectanglevoda2 {
+  width: 496px;
+  height: 77px;
+  border: 3px solid black;
+  border-radius: 62px;
+  text-align: center;
+  padding-top: 33px;
+  font-family: 'Old Standard TT';
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 52px;
+  line-height: 52px;
+}
+#kinder {
+  padding-left: 40px;
+  padding-top: 70px;
+}
+#suhoemesto {
+  margin-top: 52px;
+  margin-left: 42px;
+  width: 1350px;
+  height: 96px;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 23px;
+  font-family: 'Old Standard TT';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 86px;
+  line-height: 90px;
+  letter-spacing: 0.05em;
+}
+.txtvaselin {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  font-weight: bold;
+  font-size: 59px;
+  left: 133px;
+  top: 665px;
+}
+.txtpomada01 {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  font-weight: bold;
+  letter-spacing: 0.56em;
+  font-size: 22px;
+  left: 835px;
+  top: 445px;
+}
+.txtpomada02 {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  font-weight: normal;
+  font-size: 54px;
+  left: 759px;
+  top: 527px;
+}
+.txtkinder {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  left: 91px;
+  top: 1385px;
+}
+.txtspirt {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 67px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  left: 767px;
+  top: 1364px;
+}
+
+/* ГАЗЕТА 2 */
+.four {
+  margin-top: 84px;
+  left: 42px;
+}
+.news2-p01 {
+  width: 424px;
+  text-align: justify;
+  padding-right: 42px;
+}
+.news2-p02 {
+  margin-top: 27px;
+  width: 424px;
+  text-align-last: justify;
+  padding-right: 42px;
+}
+.news2-h2 {
+  font-weight: bold;
+  width: 424px;
+}
+.news2-h2italic {
+  font-style: italic;
+  text-align: justify;
+  line-height: 50px;
+  width: 424px;
+}
+.news2-p03 {
+  margin-top: 27px;
+  width: 424px;
+  font-style: italic;
+  text-align: justify;
+  padding-right: 42px;
+}
+
+/* ШТУКИ 2 */
+.five {
+  margin-top: 103px;
+  position: relative;
+}
+.itemsflexparttwo {
+  margin: 0 auto;
+  display: flex;
+}
+#kniga {
+  padding-left: 40px;
+}
+#math {
+  position: absolute;
+  left: 39px;
+  top: 979px;
+}
+#rectanglekapli1 {
+  margin-left: 42px;
+  margin-top: 41px;
+  width: 651px;
+  height: 302px;
+  border: 3px solid black;
+  text-align: center;
+}
+#rectanglekapli2 {
+  margin-top: -3px;
+  margin-left:-3px;
+  width: 651px;
+  height: 302px;
+  border: 3px solid black;
+  border-radius: 300px;
+  text-align: center;
+}
+#txtkapli1 {
+  padding-top: 54px;
+  font-family: 'Old Standard TT';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.18em;
+}
+#txtkapli2 {
+  padding-top: 31px;
+  font-family: 'Old Standard TT';
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 63px;
+  line-height: 60px;
+}
+#g1 {
+  margin-top: -22px;
+  padding-left: 20px;
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-size: 322px;
+  line-height: 338px;
+  letter-spacing: -0.12em;
+}
+#voda {
+  margin-top: -43px;
+  padding-left: 42px;
+}
+#pinecilin {
+  padding-left: 40px;
+  padding-top: 44px;
+}
+.g2-2 {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  font-weight: normal;
+  font-size: 380px;
+  line-height: 300px;
+  left: 226px;
+  top: 1034px;
+}
+.g2-3 {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  font-weight: normal;
+  font-size: 430px;
+  line-height: 300px;
+  left: 297px;
+  top: 1022px;
+}
+.txtpp {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  font-weight: bold;
+  font-size: 35px;
+  left: 201px;
+  top: 112px;
+}
+.txtprivnez {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  text-align: center;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 38px;
+  left: 156px;
+  top: 421px;
+}
+.txtnes {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  text-align: center;
+  font-weight: normal;
+  font-size: 63px;
+  line-height: 60px;
+  left: 133px;
+  top: 227px;
+}
+.txtv {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.36em;
+  left: 352px;
+  top: 175px;
+}
+.txti {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  left: 362px;
+  top: 372px;
+}
+.txtapteka {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.41em;
+  left: 171px;
+  top: 823px;
+}
+.txtfer {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  font-weight: bold;
+  font-size: 45px;
+  left: 776px;
+  top: 314px;
+}
+.txttov {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  font-style: italic;
+  font-size: 27px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  left: 776px;
+  top: 372px;
+}
+.txtgrvoda {
+  position: absolute;
+  font-family: 'Old Standard TT';
+  width: 771px;
+  font-weight: bold;
+  font-size: 81px;
+  left: 689px;
+  top: 567px;
+  transform: rotate(-45deg);
+}
+
+/* ЦИФРЫ */
+.six {
+  margin-top: 95px;
+  position: relative;
+}
+#imgnumbers {
+  margin-left: 40px;
+}
+#pnumbers {
+  position: absolute;
+  width: 424px;
+  height: 594px;
+  left: 508px;
+  top: 363px;
+  text-align: center;
+}
+.numbers {
+  font-family: 'Old Standard TT';
+  font-weight: normal;
+  font-size: 142px;
+}
+.n1 {
+  position: absolute;
+  left: 1214px;
+  top: 620px;
+}
+.n7 {
+  position: absolute;
+  left: 146px;
+  top: 620px;
+}
+.n2 {
+  position: absolute;
+  left: 1143px;
+  top: 368px;
+}
+.n6 {
+  position: absolute;
+  left: 215px;
+  top: 368px;
+}
+.n3 {
+  position: absolute;
+  left: 949px;
+  top: 165px;
+}
+.n5 {
+  position: absolute;
+  left: 414px;
+  top: 165px;
+}
+.n4 {
+  position: absolute;
+  left: 676px;
+  top: 82px;
+}
+.n0 {
+  position: absolute;
+  left: 679px;
+  top: 1157px;
+}
+.n8 {
+  position: absolute;
+  left: 215px;
+  top: 874px;
+}
+.n9 {
+  position: absolute;
+  left: 413px;
+  top: 1077px;
+}
+
+/* ГАЗЕТА 3 */
+.seven {
+  margin-top: 93px;
+  position: relative;
+}
+#war {
+  margin-left: 40px;
+  padding-bottom: 11px;
+}
+.news3-p1 {
+  margin-top: 27px;
+  width: 424px;
+  text-align-last: justify;
+  padding-right: 42px;
+}
+.news3-p2 {
+  margin-top: 27px;
+  width: 424px;
+  text-align: justify;
+}
+.news3-line {
+  margin-top: 36px;
+}
+
+/* НАЧЕРТАНИЯ */
+.eight {
+  margin-top: 58px;
+  position: relative;
+}
+.h1last {
+  margin-left: 42px;
+  font-style: italic;
+}
+.imglast {
+  margin-top: -243px;
+  margin-left: 42px;
+}
+.h2last {
+  margin: 0 auto;
+  width: 1356px;
+  display: flex;
+  justify-content: space-between;
+}
+#regular {
+  width: 424px;
+}
+#bold {
+  text-align: center;
+  font-weight: bold;
+  width: 424px;
+}
+#italic {
+  text-align: right;
+  font-style: italic;
+  width: 424px;
+}
+.linelast {
+  margin-top: 28px;
+}
+
+/* newscaptionparent */
+#caption1 {
+  text-align: left;
+  width: 424px;
+}
+#caption2 {
+  text-align: center;
+  width: 424px;
+}
+#caption3 {
+  text-align: right;
+  width: 424px;
 }
